@@ -1,0 +1,14 @@
+# Site settings
+title: Michael Thelin
+email: thelinmichael@gmail.com
+highlighter: pygments
+description: > # this means to ignore newlines until "baseurl:"
+  Working at Spotify's Stockholm office. Thoughts on software development, music tech, photography.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://thelinmichael.github.io" # the base hostname & protocol for your site
+github_username:  thelinmichael
+twitter_username: michaelthelin
+# Build settings
+markdown: kramdown
+gems:
+  - jemoji
