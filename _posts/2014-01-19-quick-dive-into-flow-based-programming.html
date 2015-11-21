@@ -1,0 +1,73 @@
+---
+layout: post
+title: Quick dive into flow-based programming
+date: 2014-01-19 22:13:42.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- CoffeeScript
+- JavaScript
+tags: []
+meta:
+  _edit_last: '1'
+author:
+  login: michael
+  email: thelinmichael@gmail.com
+  display_name: michael
+  first_name: ''
+  last_name: ''
+---
+<p><strong>Some initial research</strong></p>
+<ul>
+<li><a title="http://www.jpaulmorrison.com/fbp/index.shtml" href="http://www.jpaulmorrison.com/fbp/index.shtml" target="_blank">Excellent introduction to Flow-based Programming </a>by its creator/inventor J. Paul Morrison.</li>
+<li><a title="http://noflojs.org/documentation/" href="http://noflojs.org/documentation/" target="_blank">NoFlo</a> (documentation page). Flow-based programming implementation running on Node.js, and written in CoffeeScript. A lot of documentation available, and a growing amount of libraries hosted on npm. <a title="http://noflojs.org/noflo-ui/" href="http://noflojs.org/noflo-ui/" target="_blank">The NoFlo UI</a> is a work in progress, and has been successfully <a title="http://www.kickstarter.com/projects/noflo/noflo-development-environment" href="http://www.kickstarter.com/projects/noflo/noflo-development-environment" target="_blank">crowdfunded on Kickstarter</a>.</li>
+<li><a title="http://blockie.io/" href="http://blockie.io/" target="_blank">Blockie.io</a>. Not yet released, currently crowdfunding on <a title="http://www.indiegogo.com/projects/blockie-io-visual-flow-based-programming-for-back-end-development" href="http://www.indiegogo.com/projects/blockie-io-visual-flow-based-programming-for-back-end-development" target="_blank">indiegogo.com</a>.</li>
+</ul>
+<p>&nbsp;</p>
+<p>[caption id="attachment_675" align="aligncenter" width="774"]<a href="http://www.michaelthelin.se/wp-content/uploads/2014/01/Screen-Shot-2014-01-20-at-00.00.22.png"><img class=" wp-image-675  " title="NoFlo with its UI." alt="Screen Shot 2014-01-20 at 00.00.22" src="{{ site.baseurl }}/assets/Screen-Shot-2014-01-20-at-00.00.22.png" width="774" height="452" /></a> NoFlo with its UI.[/caption]</p>
+<p>So, I'm going to create a little module in NoFlo. A discussion about NoFlo on Reddit's JavaScript subreddit had <a title="http://www.reddit.com/r/javascript/comments/1jkp81/kickstarter_noflo_development_environment/cbg1168" href="http://www.reddit.com/r/javascript/comments/1jkp81/kickstarter_noflo_development_environment/cbg1168" target="_blank">this rude little comment,</a> from someone demanding that the NoFlo poster demoed some simple applications, such a Fibonacci and FizzBuzz. A Fibonacci application sounded easy enough, so I'm going to try and create that.</p>
+<p>I can't seem to get the NoFlo UI going, so I'll write the graph in <a title="http://noflojs.org/documentation/fbp/" href="http://noflojs.org/documentation/fbp/" target="_blank">NoFlo's Domain-Specific Language</a>. This may be because the UI is still in development.</p>
+<p>I created two node packages, one to hold the Fibonacci NoFlo component (noflo-fibonacci), and one to hold a graph (noflo-fibonacci-demo) that was using the component. The work to make the graph use the component was huge compared to the time it took to calculate the output, mainly because I was fiddling around with CoffeeScript.</p>
+<pre class="noescape prettyprint"># /noflo-fibonacci-demo/graphs/Fibonacci.fbp
+# Get the value of the 6th number in the Fibonacci series
+'6' -&gt; IN Fibonacci(fibonacci/Fibonacci)
+
+# Output the value
+Fibonacci() OUT -&gt; IN Display(core/Output)</pre>
+<p>The graph above uses two components; Fibonacci and Display. Fibonacci has an IN port, to which I always send '6'. Fibonacci's OUT port is connected to Displays only port, an IN port.</p>
+<p>The component itself looks like this:</p>
+<pre class="noescape prettyprint"># Fibonacci component
+# /noflo-fibonacci/components/Fibonacci.coffee
+noflo = require "noflo"
+
+class Fibonacci extends noflo.Component
+  description: "This component receives data on a single input
+  port and sends the same data out to the output port"
+
+  constructor: -&gt;
+    # Register ports
+    @inPorts =
+      in: new noflo.Port()
+    @outPorts =
+      out: new noflo.Port()
+
+    @inPorts.in.on "data", (data) =&gt;
+      fibonacciValue = @fibonacci(parseInt(data))
+      @outPorts.out.send fibonacciValue
+
+    @inPorts.in.on "disconnect", =&gt;
+      @outPorts.out.disconnect()
+
+  fibonacci: (number) -&gt;
+    if (number &lt;= 1)
+      return number
+    else
+      return @fibonacci(number-1) + @fibonacci(number-2)
+
+exports.getComponent = -&gt; new Fibonacci()</pre>
+<p>Since there's barely any logic needed in the component, it mostly consists of boilerplate stuff. You can see that the component contains two ports though. When data arrives at the input port, it simply calculates the Fibonacci number and sends it through the output port.</p>
+<p>Running it from terminal:</p>
+<p><a href="http://www.michaelthelin.se/wp-content/uploads/2014/01/Screen-Shot-2014-01-19-at-23.54.51.png"><img class="aligncenter size-full wp-image-673" alt="Screen Shot 2014-01-19 at 23.54.51" src="{{ site.baseurl }}/assets/Screen-Shot-2014-01-19-at-23.54.51.png" width="1248" height="298" /></a></p>
+<p>I'd really like to see how it is to work with NoFlo in a larger project. Will the NoFlo UI increase readability, or make it worse?  It's difficult to tell.</p>
+<p>I put the <a title="https://github.com/thelinmichael/noflo-fibonacci-demo" href="https://github.com/thelinmichael/noflo-fibonacci-demo" target="_blank">code on GitHub </a>in case someone has difficulties getting a simple component up and running.</p>

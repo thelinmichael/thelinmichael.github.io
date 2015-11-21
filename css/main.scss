@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-
+{% include custom.scss %}
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;

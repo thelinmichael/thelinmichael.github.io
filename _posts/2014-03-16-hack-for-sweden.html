@@ -1,0 +1,30 @@
+---
+layout: post
+title: Hack for Sweden
+date: 2014-03-16 16:43:57.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- Events
+- Project
+tags: []
+meta:
+  _edit_last: '1'
+author:
+  login: michael
+  email: thelinmichael@gmail.com
+  display_name: michael
+  first_name: ''
+  last_name: ''
+---
+<p>It was time for me and some colleagues to be hacking during an event instead of supporting.</p>
+<p style="text-align: center;"><a href="http://www.michaelthelin.se/wp-content/uploads/2014/03/hackforsweden.png"><img class="aligncenter" alt="hackforsweden" src="{{ site.baseurl }}/assets/hackforsweden.png" width="385" height="195" /></a></p>
+<p>Due to some <a title="http://ec.europa.eu/digital-agenda/en/pillar-i-digital-single-market/action-3-open-public-data-resources-re-use" href="http://ec.europa.eu/digital-agenda/en/pillar-i-digital-single-market/action-3-open-public-data-resources-re-use" target="_blank">EU directives</a>, countries in the union are forced to open up public data so that it can be used for things like new innovative products. Type of data can differ widely, but some examples are weather, demographics and geological data. <a title="http://www.hackforsweden.se" href="http://www.hackforsweden.se" target="_blank">Hack for Sweden</a> is a hackathon sponsored by a number of  large governmental institutes in Sweden who are currently working to opening up their data through web APIs. There were several award categories, including best visualisation, best app to use in a crisis, and best combination of governmental data.</p>
+<p>We built a trip planning application that creates a itinerary for tourists that are in need of suggestions.</p>
+<p>[caption id="attachment_718" align="aligncenter" width="1201"]<a href="http://www.michaelthelin.se/wp-content/uploads/2014/03/Screen-Shot-2014-03-16-at-17.17.37.png"><img class=" wp-image-718" title="Plan your trip, our contribution to the hackathon" alt="Screen Shot 2014-03-16 at 17.17.37" src="{{ site.baseurl }}/assets/Screen-Shot-2014-03-16-at-17.17.37.png" width="1201" height="637" /></a> Plan your trip, our contribution to the hackathon[/caption]</p>
+<p>[caption id="attachment_728" align="aligncenter" width="960"]<a href="http://www.michaelthelin.se/wp-content/uploads/2014/03/10001491_10152011824112291_1042414079_n.jpg"><img class="size-full wp-image-728 " title="Presentation time" alt="Presentation time" src="{{ site.baseurl }}/assets/10001491_10152011824112291_1042414079_n.jpg" width="960" height="720" /></a> Presentation time[/caption]</p>
+<p>The backend is written in Python using Flask. Activities were fetched from <a title="https://developer.foursquare.com/" href="https://developer.foursquare.com/" target="_blank">Foursquare</a>, and scored against its popularity. Scores for outdoors activities are affected by weather data retrieved from the <a title="http://www.smhi.se/nyhetsarkiv/oppet-api-for-smhis-prognosdata-1.34326" href="http://www.smhi.se/nyhetsarkiv/oppet-api-for-smhis-prognosdata-1.34326" target="_blank">Swedish Meteorological and Hydrological Institute's API</a> so that no-one would be suggested to take a walk in the park in a -30 hailstorm. The frontend uses Google's <a title="https://developers.google.com/maps/" href="https://developers.google.com/maps/" target="_blank">Maps API</a> to display the coordinates where the activities take place.</p>
+<p>Hack for Sweden felt like a really well-organised event. Several representatives of different functions at each sponsor were available during the whole hack, so there was never a problem getting help. Every team (about 25-30) was placed in well-ventilated rooms and food, snacks and drinks were served as often as anyone would need.</p>
+<p>The event could've been better if talks, signs, and website were held, written and available in English, as several times had non-Swedish participants.</p>
+<p>My personal learnings around the event was coding Python since I haven't touched it a lot. And to at least have spiked the project idea before the hackathon actually begins..</p>
