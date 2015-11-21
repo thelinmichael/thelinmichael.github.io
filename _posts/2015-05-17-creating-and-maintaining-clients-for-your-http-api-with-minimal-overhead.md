@@ -22,7 +22,7 @@ The issue we're seeing now is that a lot of clients, mainly those built by third
 
 Some time after the Web API release, we also released the [Web API Console](https://developer.spotify.com/web-api/console/ "https://developer.spotify.com/web-api/console/"). It used RESTful API Modeling Language (RAML) to model Spotify's Web API, and used it to generate the entire console. This means that there's minimal work required to update the console when we've deployed new features for the Web API. Basically, any time the RAML specification would be updated, a job could run to generate the new API Console and deploy it to production. This automatic generation could and should be done with clients as well.
 
-[![]({{ site.baseurl }}/assets/swagger.png)](https://swagger.io)
+[![Swagger]({{ site.baseurl }}/assets/swagger.png){: .center-image .book }](https://swagger.io)
 
 It should be mentioned that there are several popular API modeling languages except [RAML](http://raml.org/ "RAML"), such as [WADL](https://wadl.java.net/ "https://wadl.java.net/"), [API Blueprint](https://apiblueprint.org/ "https://apiblueprint.org/") and [Swagger](http://swagger.io/ "http://swagger.io/").
 
