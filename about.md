@@ -4,5 +4,8 @@ title: About
 permalink: /about/
 ---
 
-There's going to be some stuff here eventually.
+Hey! I'm Michael Thelin.
 
+I'm working at Spotify's office in Stockholm since early 2013, currently as an Engineering Team Lead and previously as a Web Developer and Test Automation Developer. Regardless of role my focus at Spotify has always been to enable other companies to build great products together with us. Examples of such products are [Sony Playstation](http://www.theguardian.com/technology/2015/mar/30/sony-spotify-playstation-music-streaming) and [Shazam](http://www.engadget.com/2015/08/06/shazam-add-songs-spotify-rdio-playlists/). 
+
+You can find more information about me on [Github](https://github.com/thelinmichael) or [LinkedIn](https://se.linkedin.com/in/michaelthelin). You can also tweet at [@michaelthelin](https://twitter.com/michaelthelin) or email thelinmichael@gmail.com.
