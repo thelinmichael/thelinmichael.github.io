@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Natural density filters"
-date:   2015-11-20 23:44:43
+date:   2016-08-20 23:44:43
 categories: photography
 ---
 Spending most of my life looking at one screen or another, I’m trying to cultivate hobbies that doesn’t require a display most of the time, such as photography. 
