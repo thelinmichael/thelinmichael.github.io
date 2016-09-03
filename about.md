@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Hey! I'm Michael Thelin.
+Hey! I'm Michael Thelin. 
 
-I'm working at Spotify's office in Stockholm since early 2013, currently as an Engineering Team Lead and previously as a Web Developer and Test Automation Developer. Regardless of role my focus has always been to enable companies and other third-party developers to build great products using Spotify. Examples of such are [Sony Playstation](http://www.theguardian.com/technology/2015/mar/30/sony-spotify-playstation-music-streaming) and [Shazam](http://www.engadget.com/2015/08/06/shazam-add-songs-spotify-rdio-playlists/).
+Some quick work facts - I've been at Spotify since early 2013, currently as an Engineering Team Lead but have contributed as a Test Automation Developer and Web Developer as well. Regardless of role, my mission since I started at Spotify has been to enable companies and other third-party developers to build great product integrations using our [Developer platform](https://developer.spotify.com). An example of a larger integrations is [the Spotify app on Playstation](http://www.theverge.com/2015/3/30/8303279/spotify-sony-ps4-ps3-launch). My open sourced code is on [Github](https://github.com/thelinmichael), and my career profile can be found on [LinkedIn](https://se.linkedin.com/in/michaelthelin).
 
-You can find more information about me on [Github](https://github.com/thelinmichael) or [LinkedIn](https://se.linkedin.com/in/michaelthelin). You can also tweet at [@michaelthelin](https://twitter.com/michaelthelin) or email thelinmichael@gmail.com.
+I'm a photography hobbyist, and most of the stuff that I find worth sharing I post on  [Flickr](https://www.flickr.com/photos/96687157@N03/). 
+
+Feel free to reach out to me at [@michaelthelin](https://twitter.com/michaelthelin) or thelinmichael@gmail.com.
+
+M
