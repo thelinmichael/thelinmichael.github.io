@@ -3,6 +3,7 @@ layout: post
 title:  "Natural density filters"
 date:   2016-08-20 23:44:43
 categories: Photography
+excerpt: Testing a 10-Stop Natural Density filter.
 ---
 Spending most of my life looking at one screen or another, I’m trying to cultivate hobbies that doesn’t require a display most of the time, such as photography. 
 
