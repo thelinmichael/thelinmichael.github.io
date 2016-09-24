@@ -12,4 +12,4 @@ twitter_username: michaelthelin
 markdown: kramdown
 gems:
   - jemoji
-pages: [ "about", "in_my_bag "]
+pages: [ "about" ]
