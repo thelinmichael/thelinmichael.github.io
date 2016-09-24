@@ -10,7 +10,7 @@ categories:
 - Project
 tags: [event]
 ---
-[![Hack For Sweden](http://hack4sweden.se/wp-content/uploads/2014/01/hack_logo.png)](https://hackforsweden.se)
+[![Hack For Sweden](http://hackforsweden.se/wp-content/uploads/2015/12/hack_logo.png)](https://hackforsweden.se)
 
 It was time for me and some colleagues to be hacking during an event instead of supporting.
 
