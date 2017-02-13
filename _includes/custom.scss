@@ -16,8 +16,25 @@
 
 table {
 	padding: 0px 5px 20px 5px;
+	border-spacing: 0px;
 }
 
 th {
-	text-align: left;
+	text-align: center;
+}
+
+thead tr {
+    background-color: #CCC;
+}
+
+tr:nth-child(even) {
+    background-color: #EEE;
+}
+
+td {
+	padding: 2px 9px 2px 9px;
+}
+
+tr {
+    padding: 5px 5px;
 }
