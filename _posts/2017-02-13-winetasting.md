@@ -8,45 +8,47 @@ excerpt: If you've landed on this page, you may be someone who is looking for a 
 ---
 Another non-technical post - Oh dear.
 
-If you've landed on this page, you may be someone who is looking for a simple way to create a wine tasting experience, described in as much detail so that you could easily copy the steps. That was at least what I was looking for. Since my Google Foo wasn't strong enough to find that, I was left to my own devices. I've shared the steps here. 
+If you've landed on this page, you may be someone who is looking for a simple way to create a wine tasting experience, described in as much detail so that you could easily copy the steps. That was what I was looking for. Since my Google Foo wasn't strong enough to find that, I was left to my own devices. I've left my breadcrumbs here. 
 
-Some personal background: I don't know a lot about wine. At all. I usually just pick up _Something from Rioja_. Or _That wine with a twig wrapped around the Bottle._ I've attended a wine tasting _once_. But I figured that it couldn't be _that_ difficult to do it decently. And if not decently, then at least a bit of fun. 
+Some personal wine background: I don't know a lot about wine. At all. I usually just pick up a red within the cheaper price range and don't think that much of it. I've attended a wine tasting _once_. But I figured that it couldn't be _that_ difficult to do it decently. And if not decently, then at least a bit of fun. 
 
-#### The Theme
-As with everything you want to try out, you want to find a single variable that you can vary that may or may not affect the end result. Everything else should stay the same. So for this tasting, I chose to go with **black grape** as the variable that'd vary. 
+#### Wine Tasting Requirement: A Theme
+As with everything you want to test scientifically, you want to find a single variable in a system that you can easily vary to check how it affects the end result.  Everything else should stay the same. So for this tasting, I chose to go with **grape** as the variable that'd vary.
 
-Other variables that I wanted to have static
+Other variables that needs to stay static
 
-- **Country**: The wines should be from the same country.
+- **Country**: The wines should be from the same region or country.
 
-- **Year**: The wines should be of the same age.
+- **Year**: The wines should be of the same vintage.
 
 - **Price**: The wines should be in the same price range.
 
-I went with wines from **France** made around **2013**, costing close to **100 SEK** (about $11) per bottle.
+So you could really go with wines from the same grape, same region, same price, but different vintages. Or some other combination.
 
-Further restrictions on the range of possible wines to choose from: 
-- Since I live in Sweden, the only place to buy wine at is Systembolaget - the **state monopoly for strong alcoholic beverages**. The
-- And since we were only two people doing the tasting, with *no* intention of spitting anything out, the bottles had to be available in the **smaller 375 ml bottle format**. This constraint _really_ restricted the number of wines to choose from. So doing this with at least four to six people would open up a lot more options.
+I aimed for wines from **France** made in **2013**, costing close to **100 SEK** (about $11) per bottle. 
+
+Restrictions on the range of possible wines to choose from: 
+- Since I live in Sweden, the only place to buy wine at is Systembolaget - the **state monopoly for strong alcoholic beverages**. 
+- Since we were only two people doing the tasting, with *no* intention of spitting anything out, the bottles had to be available in the **smaller 375 ml bottle format**. This constraint _really_ restricted the number of wines to choose from. So doing this with at least four to six people would open up a lot more options since we could go with the more common 750 ml bottles.
 
 #### The Wines
-From what was available off the shelf at Systembolaget, the wines I chose were
+From what was available off the shelf, the wines I chose were
 
-* 2015 Bourgogne Rouge from Burgundy, a **Pinot noir** grape wine (60 SEK / $6.73) ([Systembolaget](https://www.systembolaget.se/dryck/roda-viner/bourgogne-rouge-547502))
+* [2015 Bourgogne Rouge](https://www.systembolaget.se/dryck/roda-viner/bourgogne-rouge-547502) from Burgundy, a **Pinot noir** grape wine (60 SEK / $6.73)
 
-* 2012 Château Boutisse from Bordeaux, a mostly **Merlot** grape wine (99 SEK / $11.10) ([Systembolaget](https://www.systembolaget.se/dryck/roda-viner/chateau-boutisse-681302))
+* [2012 Château Boutisse]((https://www.systembolaget.se/dryck/roda-viner/chateau-boutisse-681302)) from Bordeaux, a mostly **Merlot** grape wine (99 SEK / $11.10)
 
-* 2013 Domaine du Vieux Lazaret from Rhône, a **Syrah/Shiraz** grape wine (110 SEK / $12.33) ([Systembolaget](https://www.systembolaget.se/dryck/roda-viner/domaine-du-vieux-lazaret-221102))
+* [2013 Domaine du Vieux Lazaret]((https://www.systembolaget.se/dryck/roda-viner/domaine-du-vieux-lazaret-221102)) from Rhône, a **Syrah/Shiraz** grape wine (110 SEK / $12.33)
 
-* 2013 Château Plantier Rose Cru Bourgeois from Bordeaux, a mostly **Cabernet Sauvignon** grape wine. (130 SEK / $14.57) ([Systembolaget](https://www.systembolaget.se/dryck/roda-viner/chateau-plantier-rose-362602))
+* [2013 Château Plantier Rose Cru Bourgeois](https://www.systembolaget.se/dryck/roda-viner/chateau-plantier-rose-362602) from Bordeaux, a mostly **Cabernet Sauvignon** grape wine. (130 SEK / $14.57)
 
-Total cost: 399 SEK ($44.73)
+Total cost: **399 SEK ($44.73)**
 
 Due to a lack of options, I had to be a bit flexible on the year and the purity of the grapes in the wines. The wines containing Merlot and the Cabernet Sauvignon grapes are blends. (Château Boutisse contains both Merlot and Cabernet Sauvignon grapes. Château Plantier Rose Cru Bourgeois contains 62% Cabernet Sauvignon, 30% Merlot, and 8% Petit Verdot.)
 
 #### The Tasting and the Challenge
 
-The common way to do a wine tasting is to tell people what they're drinking, but without saying too much about what they should taste like to not anchor their personal interpretation.
+A common way to do a wine tasting is to tell people what they're drinking. You might want to let people try it out without saying too much about the aroma and the taste to not anchor people's interpretation, and you could hold off on telling people the price of the wine until everyone has chosen their favourite.
 
 I wanted this tasting to have a bit of a challenge to it. (A presentation about the wines, wineyards, regions, and so on would've required way more authenticity as a wine expert than I could possibly acquire.)
 
@@ -63,7 +65,7 @@ Below is a brief and simplified cheat sheet that works for the wines listed abov
 | Syrah/Shiraz | Opaque purple-black. | Spicy, nuanced scent with hints of barrel, raspberries, strawberries, bay leaf, pepper and meat. | Full 
 | Cabernet Sauvignon | Near opaque, but less than Syrah. Dark ruby colour.| Subtle, fruity aroma with clear  oak character, hints of black currants, coconut, plum, cedar, coffee and mint. | Full
 
-To assist her in identifying the correct smells, I had bought one **Reference Ingredient** for each wine.
+To assist her in identifying the correct smells, I had bought one **Reference ingredient** for each wine.
 
 | Wine | Grape | Reference Ingredient 
 | -------- | ---- | ---- 
@@ -78,9 +80,7 @@ The Pinot Noir grape was easiest one to identify by its looks, and the Cabernet 
 
 #### Things to do differently next time
 
-* **Different reference integredients.** Not sure which ingredient was the most useful to be honest - they were all really strong compared to the aroma coming from the wine and there was no immediate hit. The Cabernet Sauvignon was easily identifiable by just sharing that it's supposed to smell like oak. 
-
-* **Avoiding blends**. I think you can have a lot of fun doing this with your date. However, having 3-4 people join the tasting opens up to a lot more wines to chose from. (It'd enable you to buy 750 ml bottles, of which there are a _lot more of_. Or just drink a lot more per person!) This way it'd be easier to stear clear of wines made out of multiple grapes.
+* **Different reference integredients.** Not sure which ingredient was the most useful - they were all really strong compared to the aroma coming from the wine and there was no immediate hit. The Cabernet Sauvignon was easily identifiable by just sharing that it's supposed to smell like oak. 
 
 I can really recommend the [Wine Basics](http://winefolly.com/wine-basics-beginners-guide/) at Winefolly for other beginners. I'm a sucker for good infographics, and they've got a lot of them. 
 

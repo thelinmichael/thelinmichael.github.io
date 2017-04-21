@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Running Objective and Actionable metrics"
-date:   2017-04-04 00:12:00
-categories: Running
+title:  "Wine and photography in Piedmont, Italy"
+date:   2017-04-16 00:12:00
+categories:
+- Photography
+- Wine
 excerpt: The hypothesis for 2017 is that if I run more, I _should_ become faster. Very contrarian, I know. 
 ---
 As last year was ending, I set some [over-ambitious goals](http://michaelthelin.se/running/2016/11/20/running-achievements-and-goals.html) for my personal objective of _Becoming Faster_. The goals, or Key Results in OKR-speak, were simply a new set of personal records for my favourite race distances; 5k, 10k, and a half-marathon. Highly measureable.
