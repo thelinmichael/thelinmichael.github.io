@@ -10,17 +10,17 @@
 | 2017-06-15 | 10K | [Sthlm10](http://www.sthlm10.se/) | Stockholm |
 | 2017-06-07 | 5K | [Blodomloppet](https://enter.lidingoloppet.se//Web/Step1.aspx?EventGroupId=3&CompetitionId=259) | Stockholm  |
 | 2017-06-03 | Marathon | [Stockholm Marathon](http://www.stockholmmarathon.se/start/) | Stockholm  |
-| 2017-05-20 | Half marathon | [Göteborgsvarvet](http://www.goteborgsvarvet.se/goteborgsvarvet-21-km/) | Gothenburg  |
-| 2017-05-13 | Half marathon | [Kungsholmen Runt](http://kungsholmenrunt.se/Main/Start.asp) | Stockholm | **1:36:27**
+| 2017-05-20 | Half marathon | [Göteborgsvarvet](http://www.goteborgsvarvet.se/goteborgsvarvet-21-km/) | Gothenburg  | **1:36:02**
+| 2017-05-13 | Half marathon | [Kungsholmen Runt](http://kungsholmenrunt.se/Main/Start.asp) | Stockholm | 1:36:27
 
 #### 2016
 
 | Date | Distance | Race | City | Result
 | ---- | -------- | ---- | ---- | ------
-| 2017-11-07 | 10K | [Vintermilen](http://www.vintermarathon.se/start/content.cfm?Sec_ID=4703&Rac_ID=265&Lan_ID=1) | Stockholm | **42:52**
-| 2017-10-08 | 5K | [Mental Health Run](http://mentalhealthrun.se/) |  Stockholm | **20:22**
-| 2017-08-23 | 5K | [Bellmanstafetten](http://bellmanstafetten.se/) | Stockholm | 20:45
-| 2017-05-07 | Half marathon | [Kungsholmen Runt](http://kungsholmenrunt.se/Main/Start.asp) | Stockholm | 1:42:34
+| 2016-11-07 | 10K | [Vintermilen](http://www.vintermarathon.se/start/content.cfm?Sec_ID=4703&Rac_ID=265&Lan_ID=1) | Stockholm | **42:52**
+| 2016-10-08 | 5K | [Mental Health Run](http://mentalhealthrun.se/) |  Stockholm | **20:22**
+| 2016-08-23 | 5K | [Bellmanstafetten](http://bellmanstafetten.se/) | Stockholm | 20:45
+| 2016-05-07 | Half marathon | [Kungsholmen Runt](http://kungsholmenrunt.se/Main/Start.asp) | Stockholm | 1:42:34
 
 #### 2015
 
