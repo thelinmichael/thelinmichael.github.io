@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Running Objective and Actionable metrics"
-date:   2017-04-04 00:12:00
+date:   2017-04-05 00:12:00
 categories: Running
-excerpt: Hypothesis for 2017: If I run more, I SHOULD become faster. 
+excerpt: Hypothesis for 2017 - If I run more, I SHOULD become faster. 
 ---
 As last year was ending, I set some [over-ambitious goals](http://michaelthelin.se/running/2016/11/20/running-achievements-and-goals.html) for my personal objective of _Becoming Faster_. The goals, or Key Results in OKR-speak, were simply a new set of personal records for my favourite race distances; 5k, 10k, and a half-marathon. Highly measureable.
 
