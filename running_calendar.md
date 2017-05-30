@@ -4,7 +4,6 @@
 
 | Date | Distance | Race | City | Result
 | ---- | -------- | ---- | ---- | ------
-| 2017-10-08 | 10K | [Hässelbyloppet](http://hasselbyloppet.se/start/) | Stockholm |
 | 2017-10-07 | 5K | [Mental Health Run](http://mentalhealthrun.se/) | Stockholm  |
 | 2017-08-23 | 5K | [Bellmanstafetten](http://bellmanstafetten.se/) | Stockholm |
 | 2017-06-15 | 10K | [Sthlm10](http://www.sthlm10.se/) | Stockholm |
