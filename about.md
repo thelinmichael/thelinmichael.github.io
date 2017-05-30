@@ -10,7 +10,7 @@ Some quick work facts - I've been at Spotify since early 2013, currently as an E
 
 I'm a photography hobbyist, and most of the stuff that I find worth sharing I post on [Flickr](https://www.flickr.com/photos/96687157@N03/). Some of the photos are available for sale at [Shutterstock](https://www.shutterstock.com/g/michaelthelin). 
 
-My digital footprint as an amateur runner is on [Strava](https://www.strava.com/athletes/9436776).
+My digital footprint as an amateur runner is on [Strava](https://www.strava.com/athletes/9436776). I've listed finished and upcoming races in a [Race Calendar](http://michaelthelin.se/running_calendar.html) for my own convenience.
 
 The contents of this site is a mix of work, photography, and running, and is mainly written for my own amusement.
 
