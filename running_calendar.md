@@ -6,8 +6,7 @@
 | ---- | -------- | ---- | ---- | ------
 | 2017-10-07 | 5K | [Mental Health Run](http://mentalhealthrun.se/) | Stockholm  |
 | 2017-08-23 | 5K | [Bellmanstafetten](http://bellmanstafetten.se/) | Stockholm |
-| 2017-06-15 | 10K | [Sthlm10](http://www.sthlm10.se/) | Stockholm |
-| 2017-06-07 | 5K | [Blodomloppet](https://enter.lidingoloppet.se//Web/Step1.aspx?EventGroupId=3&CompetitionId=259) | Stockholm  |
+| 2017-06-07 | 5.2K | [Blodomloppet](https://enter.lidingoloppet.se//Web/Step1.aspx?EventGroupId=3&CompetitionId=259) | Stockholm  | 21:20
 | 2017-06-03 | Marathon | [Stockholm Marathon](http://www.stockholmmarathon.se/start/) | Stockholm  | **3:55:37**
 | 2017-05-20 | Half marathon | [Göteborgsvarvet](http://www.goteborgsvarvet.se/goteborgsvarvet-21-km/) | Gothenburg  | **1:36:02**
 | 2017-05-13 | Half marathon | [Kungsholmen Runt](http://kungsholmenrunt.se/Main/Start.asp) | Stockholm | 1:36:27
